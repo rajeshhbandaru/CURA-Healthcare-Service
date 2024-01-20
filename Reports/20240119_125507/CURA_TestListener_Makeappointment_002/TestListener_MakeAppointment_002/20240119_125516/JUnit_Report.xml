@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestListener_MakeAppointment_002" time="9.018" tests="0" failures="0" errors="0">
+   <testsuite name="TestListener_MakeAppointment_002" tests="0" failures="0" errors="0" time="9.018" skipped="0" timestamp="2024-01-19 12:55:32" hostname="rajes - RAJESHBANDARU" id="Test Suites/CURA_TestListener_Makeappointment_002/TestListener_MakeAppointment_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rajes\\Katalon Studio\\CURA Healthcare Service\\Reports\\20240119_125507\\CURA_TestListener_Makeappointment_002\\TestListener_MakeAppointment_002\\20240119_125516"/>
+         <property name="logFiles" value="C:\\Users\\rajes\\Katalon Studio\\CURA Healthcare Service\\Reports\\20240119_125507\\CURA_TestListener_Makeappointment_002\\TestListener_MakeAppointment_002\\20240119_125516\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rajes - RAJESHBANDARU"/>
+         <property name="hostAddress" value="192.168.150.13"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <system-out><![CDATA[2024-01-19 12:55:32 - [TEST_SUITE][PASSED] - TestListener_MakeAppointment_002: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

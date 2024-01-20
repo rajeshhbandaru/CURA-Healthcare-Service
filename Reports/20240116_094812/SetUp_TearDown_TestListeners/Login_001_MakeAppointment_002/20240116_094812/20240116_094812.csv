@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_001_MakeAppointment_002,Chrome 120.0.0.0,,,2024-01-16 09:48:23,2024-01-16 09:48:57,33.893s,PASSED
+,,,,,,,
+Test Cases/CURA_Health_Services/TC_CHS_LOGIN_001,Chrome 120.0.0.0,,,2024-01-16 09:48:23,2024-01-16 09:48:39,15.863s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-16 09:48:24,2024-01-16 09:48:29,5.034s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,2024-01-16 09:48:29,2024-01-16 09:48:32,3.353s,PASSED
+"click(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,2024-01-16 09:48:32,2024-01-16 09:48:33,1.084s,PASSED
+"setText(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 120.0.0.0,,,2024-01-16 09:48:33,2024-01-16 09:48:34,0.924s,PASSED
+"setEncryptedText(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,2024-01-16 09:48:34,2024-01-16 09:48:35,0.615s,PASSED
+"click(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,2024-01-16 09:48:35,2024-01-16 09:48:36,1.138s,PASSED
+delay(2),Chrome 120.0.0.0,,,2024-01-16 09:48:36,2024-01-16 09:48:38,2.062s,PASSED
+"verifyElementPresent(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 120.0.0.0,,,2024-01-16 09:48:38,2024-01-16 09:48:38,0.389s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-16 09:48:38,2024-01-16 09:48:39,0.784s,PASSED
+,,,,,,,
+Test Cases/CURA_Health_Services/TC_CHS_MAKEAppointment_002,Chrome 120.0.0.0,,,2024-01-16 09:48:39,2024-01-16 09:48:57,17.670s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-16 09:48:40,2024-01-16 09:48:41,1.783s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,2024-01-16 09:48:41,2024-01-16 09:48:45,3.536s,PASSED
+"click(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,2024-01-16 09:48:45,2024-01-16 09:48:47,1.637s,PASSED
+"setText(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 120.0.0.0,,,2024-01-16 09:48:47,2024-01-16 09:48:47,0.836s,PASSED
+"setEncryptedText(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,2024-01-16 09:48:47,2024-01-16 09:48:48,0.539s,PASSED
+"click(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,2024-01-16 09:48:48,2024-01-16 09:48:49,1.211s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURAHealthcareService_MAKEAppointment_OR_002/Page_CURA Healthcare Service/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,2024-01-16 09:48:49,2024-01-16 09:48:50,1.282s,PASSED
+"click(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Chrome 120.0.0.0,,,2024-01-16 09:48:50,2024-01-16 09:48:51,0.424s,PASSED
+"check(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 120.0.0.0,,,2024-01-16 09:48:51,2024-01-16 09:48:51,0.421s,PASSED
+"setText(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), ""29/01/2024"")",Chrome 120.0.0.0,,,2024-01-16 09:48:51,2024-01-16 09:48:52,0.797s,PASSED
+"setText(findTestObject(""CURA_HS_All_Buttons_OR/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Hello Doctor"")",Chrome 120.0.0.0,,,2024-01-16 09:48:52,2024-01-16 09:48:53,0.888s,PASSED
+"click(findTestObject(""Object Repository/CURAHealthcareService_MAKEAppointment_OR_002/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,2024-01-16 09:48:53,2024-01-16 09:48:54,1.224s,PASSED
+delay(2),Chrome 120.0.0.0,,,2024-01-16 09:48:54,2024-01-16 09:48:56,2.019s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-16 09:48:56,2024-01-16 09:48:57,0.767s,PASSED

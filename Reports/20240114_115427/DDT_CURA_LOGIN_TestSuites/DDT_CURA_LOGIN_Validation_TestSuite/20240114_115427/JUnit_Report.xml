@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT_CURA_LOGIN_Validation_TestSuite" time="33.386" tests="3" failures="0" errors="0">
+   <testsuite name="DDT_CURA_LOGIN_Validation_TestSuite" tests="3" failures="0" errors="0" time="33.386" skipped="0" timestamp="2024-01-14 11:54:34" hostname="rajes - RAJESHBANDARU" id="Test Suites/DDT_CURA_LOGIN_TestSuites/DDT_CURA_LOGIN_Validation_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rajes\\Katalon Studio\\CURA Healthcare Service\\Reports\\20240114_115427\\DDT_CURA_LOGIN_TestSuites\\DDT_CURA_LOGIN_Validation_TestSuite\\20240114_115427"/>
+         <property name="logFiles" value="C:\\Users\\rajes\\Katalon Studio\\CURA Healthcare Service\\Reports\\20240114_115427\\DDT_CURA_LOGIN_TestSuites\\DDT_CURA_LOGIN_Validation_TestSuite\\20240114_115427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rajes - RAJESHBANDARU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.119.13"/>
+         <property name="sessionId" value="6dfae2f5a260242a0b4cdc66ad60ef25"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel" time="13.161" classname="Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel" status="PASSED">
+         <system-out><![CDATA[2024-01-14 11:54:35 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel: Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel
+
+2024-01-14 11:54:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-14 11:54:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-14 11:54:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-14 11:54:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-14 11:54:40 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-01-14 11:54:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-01-14 11:54:43 - [TEST_STEP][PASSED] - click(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-01-14 11:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-01-14 11:54:44 - [TEST_STEP][PASSED] - setText(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username'
+
+2024-01-14 11:54:45 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username'
+
+2024-01-14 11:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password'
+
+2024-01-14 11:54:46 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password'
+
+2024-01-14 11:54:46 - [TEST_STEP][PASSED] - click(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-01-14 11:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-01-14 11:54:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-14 11:54:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel" time="9.741" classname="Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel" status="PASSED">
+         <system-out><![CDATA[2024-01-14 11:54:48 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel: Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel
+
+2024-01-14 11:54:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-14 11:54:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-14 11:54:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-14 11:54:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-14 11:54:50 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-01-14 11:54:52 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-01-14 11:54:52 - [TEST_STEP][PASSED] - click(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-01-14 11:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-01-14 11:54:53 - [TEST_STEP][PASSED] - setText(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username'
+
+2024-01-14 11:54:54 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username'
+
+2024-01-14 11:54:54 - [TEST_STEP][PASSED] - setText(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password'
+
+2024-01-14 11:54:55 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password'
+
+2024-01-14 11:54:55 - [TEST_STEP][PASSED] - click(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-01-14 11:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-01-14 11:54:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-14 11:54:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel" time="9.864" classname="Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel" status="PASSED">
+         <system-out><![CDATA[2024-01-14 11:54:58 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel: Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel
+
+2024-01-14 11:54:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-14 11:54:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-14 11:54:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-14 11:55:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-14 11:55:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-01-14 11:55:02 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-01-14 11:55:02 - [TEST_STEP][PASSED] - click(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-01-14 11:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2024-01-14 11:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username'
+
+2024-01-14 11:55:04 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Username_username'
+
+2024-01-14 11:55:04 - [TEST_STEP][PASSED] - setText(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIstAPassword' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password'
+
+2024-01-14 11:55:05 - [MESSAGE][PASSED] - Text 'ThisIstAPassword' is set on object 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/input_Password_password'
+
+2024-01-14 11:55:05 - [TEST_STEP][PASSED] - click(findTestObject("CURA_HS_Excel/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-01-14 11:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_HS_Excel/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2024-01-14 11:55:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-14 11:55:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-14 11:54:34 - [TEST_SUITE][PASSED] - DDT_CURA_LOGIN_Validation_TestSuite: Test Cases/Data-Driven Testing/TC_CHS_LOING_Excel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
